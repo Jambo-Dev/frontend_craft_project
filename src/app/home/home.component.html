@@ -1,0 +1,17 @@
+<header>
+  <mat-toolbar color="primary">
+    <h1>IN TOUCH</h1>
+    <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>My Profile</button>
+      <button mat-menu-item>Setting</button>
+      <button mat-menu-item>Privacy</button>
+      <button mat-menu-item>Logout</button>
+    </mat-menu>
+  </mat-toolbar>
+</header>
+<app-profile></app-profile>
+<app-personal-info></app-personal-info>
+<app-socials></app-socials>
+<app-message-list></app-message-list>
+<app-feed-list></app-feed-list>
