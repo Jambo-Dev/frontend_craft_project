@@ -69,7 +69,11 @@ export class AppComponent {
     );
     iconRegistry.addSvgIcon(
       'website',
-      sanitizer.bypassSecurityTrustResourceUrl('../../assets/icons/cubes.svg')
+      sanitizer.bypassSecurityTrustResourceUrl('../../assets/icons/social/cubes.svg')
+    );
+    iconRegistry.addSvgIcon(
+      'add',
+      sanitizer.bypassSecurityTrustResourceUrl('../../assets/icons/plus-square.svg')
     );
   }
 }

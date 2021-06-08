@@ -1,1 +1,102 @@
-<p>personal-info-card works!</p>
+<mat-card>
+  <mat-card-header>
+    <h3>Ellie Jordan</h3>
+    <button mat-icon-button *ngIf="!isEditMode" (click)="toggleEditMode()">
+      <mat-icon svgIcon="edit"></mat-icon>
+    </button>
+    <button mat-icon-button *ngIf="isEditMode" (click)="toggleEditMode()">
+      <mat-icon svgIcon="save"></mat-icon>
+    </button>
+  </mat-card-header>
+  <mat-card-content>
+    <div>
+      <div *ngFor="let email of details.emails">
+        <div>
+          <mat-icon [svgIcon]="email.icon"></mat-icon>
+        </div>
+        <div *ngIf="isEditMode">
+          <mat-form-field>
+            <input matInput [(ngModel)]="email.name" />
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput [(ngModel)]="email.detail" />
+          </mat-form-field>
+        </div>
+        <div *ngIf="!isEditMode">
+          <div *ngIf="email.name">
+            {{ email.name }}
+          </div>
+          <div>
+            {{ email.detail }}
+          </div>
+        </div>
+      </div>
+      <mat-divider></mat-divider>
+      <div *ngFor="let phone of details.phones">
+        <div>
+          <mat-icon [svgIcon]="phone.icon"></mat-icon>
+        </div>
+        <div *ngIf="isEditMode">
+          <mat-form-field>
+            <input matInput [(ngModel)]="phone.name" />
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput [(ngModel)]="phone.detail" />
+          </mat-form-field>
+        </div>
+        <div *ngIf="!isEditMode">
+          <div *ngIf="phone.name">
+            {{ phone.name }}
+          </div>
+          <div>
+            {{ phone.detail }}
+          </div>
+        </div>
+      </div>
+      <mat-divider></mat-divider>
+      <div *ngFor="let address of details.addresses">
+        <div>
+          <mat-icon [svgIcon]="address.icon"></mat-icon>
+        </div>
+        <div *ngIf="isEditMode">
+          <mat-form-field>
+            <input matInput [(ngModel)]="address.name" />
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput [(ngModel)]="address.detail" />
+          </mat-form-field>
+        </div>
+        <div *ngIf="!isEditMode">
+          <div *ngIf="address.name">
+            {{ address.name }}
+          </div>
+          <div>
+            {{ address.detail }}
+          </div>
+        </div>
+      </div>
+      <mat-divider></mat-divider>
+      <div>
+        <div>
+          <mat-icon [svgIcon]="details.birthday.icon"></mat-icon>
+        </div>
+        <div *ngIf="isEditMode">
+          <mat-form-field>
+            <input matInput [(ngModel)]="details.birthday.name" />
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput [(ngModel)]="details.birthday.detail" />
+          </mat-form-field>
+        </div>
+        <div *ngIf="!isEditMode">
+          <div *ngIf="details.birthday.name">
+            {{ details.birthday.name }}
+          </div>
+          <div>
+            {{ details.birthday.detail }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>

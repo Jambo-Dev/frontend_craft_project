@@ -1,1 +1,17 @@
-<p>feed-item works!</p>
+<div>
+  <div>
+    <mat-icon [svgIcon]="feedItem.icon"></mat-icon>
+  </div>
+  <div>
+      <div>{{feedItem.time}}</div>
+      <div *ngIf="feedItem.imagePath">
+          <img [src]="feedItem.imagePath"/>
+      </div>
+      <div>
+          {{feedItem.message}}
+      </div>
+      <div *ngIf="feedItem.subtext">
+          {{feedItem.subtext}}
+      </div>
+  </div>
+</div>

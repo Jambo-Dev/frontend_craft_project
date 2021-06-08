@@ -15,9 +15,15 @@ export class SocialsComponent implements OnInit {
     { icon: 'website', url: 'www.EllieJordan.ca' },
   ];
 
+  isEditMode: boolean = false;
+
   constructor() {}
 
   ngOnInit(): void {}
+
+  toggleEditMode(): void {
+    this.isEditMode = !this.isEditMode;
+  }
 }
 
 export class Social {
