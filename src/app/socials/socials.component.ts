@@ -24,6 +24,10 @@ export class SocialsComponent implements OnInit {
   toggleEditMode(): void {
     this.isEditMode = !this.isEditMode;
   }
+
+  onAddRecord(): void {
+    this.socials.push({ icon: 'website', url: 'www.newwebsite.com' });
+  }
 }
 
 export class Social {

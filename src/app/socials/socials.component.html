@@ -21,7 +21,9 @@
       </div>
     </div>
     <div *ngIf="isEditMode">
+      <button mat-icon-button (click)="onAddRecord()">
         <mat-icon svgIcon="add"></mat-icon>
+      </button>
     </div>
   </mat-card-content>
 </mat-card>
