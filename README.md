@@ -6,15 +6,20 @@ and execute the user interface as designed by a UX/UI specialist.
 Your goal is to use the existing Angular application code and modify the components HTML and CSS
 to meet or exceed the design mockup provided.
 
-# Design Mockup
+## Design Mockup
 ![alt text](https://github.com/Jambo-Dev/frontend_craft_project/blob/main/Contact%20Profile.png)
 
-# Clone the Project, Don't Fork
+## Clone the Project, Don't Fork
 
 In order to work on this craft project please clone this project into your own repository.
 We will not accept any pull requests or fork merge requests.
 
+## Craft Project Completion
 
+When you are complete and ready to show the work you have done, send us a link to your github repository.
+If this doesn't work for you, please contact us for other ways to send us your code.
+
+# Angular Application Info
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
 
