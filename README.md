@@ -7,7 +7,7 @@ Your goal is to use the existing Angular application code and modify the compone
 to meet or exceed the design mockup provided.
 
 # Design Mockup
-
+![alt text](https://github.com/Jambo-Dev/frontend_craft_project/blob/main/Contact%20Profile.png)
 
 # Clone the Project, Don't Fork
 
