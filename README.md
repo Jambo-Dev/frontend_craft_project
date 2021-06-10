@@ -3,7 +3,7 @@
 This project was designed to test your abilities to take a typical work product from a developer 
 and execute the user interface as designed by a UX/UI specialist.
 
-Your goal is to use the existing Angular application code and modify the components HTML and CSS
+Your goal is to use the existing Angular application code and modify the components HTML and Styling (CSS, LESS, SCSS)
 to meet or exceed the design mockup provided.
 
 ## Design Mockup
