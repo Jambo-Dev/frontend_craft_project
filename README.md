@@ -3,8 +3,11 @@
 This project was designed to test your abilities to take a typical work product from a developer 
 and execute the user interface as designed by a UX/UI specialist.
 
-Your goal is to use the existing Angular application code and modify the components HTML and Styling (CSS, LESS, SCSS)
+Your goal is to use the existing Angular application code and modify the components HTML and Styling (LESS, SCSS, SASS, CSS)
 to meet or exceed the design mockup provided.
+
+If you are not as familiar with Angular you may choose to do the project with a different framework, however you will have to do 
+all the leg work setting up that framework. Keep in mind Angular is the main framework we work with.
 
 ## Design Mockup
 ![alt text](https://github.com/Jambo-Dev/frontend_craft_project/blob/main/Contact%20Profile.png)
@@ -37,9 +40,13 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
+We do not require you to write all the unit tests for this project, however we do value an understanding of how unit testing works.
+
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
+
+We do not require you to write E2E tests for this project, however we do value an understanding of how E2E testing works.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
