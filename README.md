@@ -9,6 +9,12 @@ to meet or exceed the design mockup provided.
 If you are not as familiar with Angular you may choose to do the project with a different framework, however you will have to do 
 all the leg work setting up that framework. Keep in mind Angular is the main framework we work with.
 
+## Expectations
+
+We are wanting you to spend no more than 4 hours, and do not expect 100% completion.
+
+When submitting please include a brief overview of your approach and priorities (bullet point is great).
+
 ## Design Mockup
 ![alt text](https://github.com/Jambo-Dev/frontend_craft_project/blob/main/Contact%20Profile.png)
 
